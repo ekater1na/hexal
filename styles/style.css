@@ -1,0 +1,448 @@
+@font-face {
+    font-family: "MavenProRegular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("MavenProRegular"), local("MavenPro-Regular"),
+         url(./assets/fonts/maven-pro-v11-latin-regular.woff2) format("woff2"),
+         url(./assets/fonts/maven-pro-v11-latin-regular.woff) format("woff"),
+  }
+
+@font-face {
+    font-family: "Lato-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Lato-Regular"), local('Lato-Regular'),
+         url(./assets/fonts/lato-v14-latin-regular.woff2) format('woff2'), /* Super Modern Browsers */
+         url(./assets/fonts/lato-v14-latin-regular.woff) format('woff'), /* Modern Browsers */
+  }
+
+  @font-face {
+    font-family: "Lato-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Lato-Bold"), local('Lato-Bold'),
+         url(./assets/fonts/lato-v14-latin-700.woff2) format('woff2'), /* Super Modern Browsers */
+         url(./assets/fonts/lato-v14-latin-700.woff) format('woff'), /* Modern Browsers */
+  }
+
+  
+/*header*/
+
+body{
+    width: 1020px;
+    height: 1732px;
+}
+
+header {
+    width: 1020px;
+    height: 63px;
+    background-color: #323232;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+header:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 37px solid #323232;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    margin-left: -0px;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font-family: ﻿Lato-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 7.21379pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 15px 30px;
+	margin: 0;
+}
+
+.menu li.active {
+	font-family: ﻿Lato-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 7.21379pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: justify;
+}
+
+.menu a {
+	color: rgba(255, 255, 255, 255);;
+}
+
+h1 {
+    visibility: hidden;
+}
+
+title {
+    display: none;
+}
+
+
+.menu {
+    font-family: ﻿Lato-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 7.21379pt;
+    color: rgba(46, 179, 152, 255);
+    text-align: justify;
+    display: inline;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 30px;
+    margin: 0;
+}
+
+nav.navigation{
+    margin: -40px;
+}
+
+.menu-img {
+    margin: 0 auto;
+}
+
+/*slider*/
+
+
+.hexagon-container {
+    width: 1020px;
+    height: 735px;
+    background-color: #ffffff;
+    transform: scaleX(sx);
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*slider row 1*/
+
+
+.hexagon {
+    width: 180px;
+    height: 210px;
+    margin: 5px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    visibility: hidden;
+    display: inline-block;
+}
+
+.hex-layer-1 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;    
+}
+
+.hex-layer-2 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 33.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hex-layer-3 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 31.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hex-layer-4 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 34@1X.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hex-layer-5 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 35@1X.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+/*slider row 2*/
+
+.row-2{
+    margin: -58px;
+}
+
+.hex-layer-6 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 36@1X.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hex-layer-7 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 44@1X.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hex-layer-8 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 37@1X.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hex-layer-9 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 38@1X.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hex-layer-10 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 39@1X.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+/*slider row 3*/
+
+.hex-layer-11 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 40@1X.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hex-layer-12 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 41@1X.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hex-layer-13 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 43@1X.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hex-layer-14 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Layer 42@1X.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+/*about*/
+
+.hex-layer-15 {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("../assets/images/Image@1X.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.about{
+    width: 1020px;
+    height: 341px;
+    background-color: #2eb398;
+}
+
+h2 {
+    font-family: ﻿MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 30pt;
+    color: rgba(215, 252, 245, 255);
+    text-align: justify;
+}
+
+h3 {
+    font-family: ﻿MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 18pt;
+    color: rgba(32, 129, 109, 255);
+    text-align: justify;
+}
+
+p {
+    font-family: ﻿Lato-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 12pt;
+    color: rgba(215, 252, 245, 255);
+    text-align: justify;
+}
+
+.author {
+    float: left; 
+}
+
+.social {
+    float: right;
+}
+
+/*get-in-touch*/
+
+.touch {
+    width: 1020px;
+    height: 564px;
+    background-color: #323232;
+}
+
+legend{
+    font-family: ﻿MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 30pt;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+}
+
+.button-submit {
+    background: #2eb398;
+    width: 90px;
+    height: 37px;
+    
+}
+
+.input-text {
+    width: 580px;
+    height: 38px;
+    background-color: #454545;
+    margin-bottom: 5px;
+    border: 1px solid #454545;
+}
+
+.input-text-area {
+    width: 580px;
+    height: 150px;
+    background-color: #454545;
+    font-family: ﻿Lato-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 12pt;
+    color: rgba(190, 190, 190, 255);
+    text-align: justify;
+    border: 1px solid #454545;
+}
+
+.in-touch-form {
+    float: left; 
+}
+
+.touch p{
+    font-family: ﻿MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 18pt;
+    color: rgba(190, 190, 190, 255);
+    text-align: justify;
+}
+
+/*blog*/
+.blog{
+    font-family: ﻿Lato-Black, ﻿Lato-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 12pt;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+    }
+
+.contacts{
+    font-family: ﻿Lato-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 12pt;
+    color: rgba(190, 190, 190, 255);
+    text-align: justify;
+
+}
+
+/*footer*/
+
+footer {
+    width: 1020px;
+    height: 42px;
+    background-color: #222222;
+    font-family: ﻿MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 8.65655pt;
+    color: rgba(69, 69, 69, 255);
+    text-align: justify;
+}
